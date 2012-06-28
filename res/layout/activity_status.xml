@@ -1,0 +1,87 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroung1" >
+
+    <ImageView
+        android:id="@+id/status_face"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:contentDescription="@string/status_face" />
+
+    <ImageButton
+        android:id="@+id/status_skill2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/status_skill1"
+        android:layout_toRightOf="@+id/status_skill1"
+        android:background="#00000000"
+        android:contentDescription="@string/status_skill2"
+        android:src="@drawable/skill2" />
+
+    <ImageButton
+        android:id="@+id/status_skill3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/status_skill2"
+        android:layout_toRightOf="@+id/status_skill2"
+        android:background="#00000000"
+        android:contentDescription="@string/status_skill3"
+        android:src="@drawable/skill3" />
+
+    <ImageButton
+        android:id="@+id/status_skill4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/status_skill3"
+        android:layout_toRightOf="@+id/status_skill3"
+        android:background="#00000000"
+        android:contentDescription="@string/status_skill4"
+        android:src="@drawable/skill4" />
+
+    <ImageButton
+        android:id="@+id/status_fight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/status_team"
+        android:layout_marginLeft="80dp"
+        android:background="#00000000"
+        android:contentDescription="@string/status_fight"
+        android:src="@drawable/button_fight" />
+
+    <ImageButton
+        android:id="@+id/status_team"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="220dp"
+        android:background="#00000000"
+        android:contentDescription="@string/status_team"
+        android:src="@drawable/button_team" />
+
+    <ImageButton
+        android:id="@+id/status_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/status_team"
+        android:layout_toRightOf="@+id/status_team"
+        android:background="#00000000"
+        android:contentDescription="@string/status_item"
+        android:src="@drawable/button_item" />
+
+    <ImageButton
+        android:id="@+id/status_skill1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/status_face"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="20dp"
+        android:background="#00000000"
+        android:contentDescription="@string/status_skill1"
+        android:src="@drawable/skill1" />
+
+</RelativeLayout>

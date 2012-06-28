@@ -1,12 +1,35 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
-    >
-<TextView  
-    android:layout_width="fill_parent" 
-    android:layout_height="wrap_content" 
-    android:text="@string/hello"
-    />
-</LinearLayout>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background2" >
+
+    <ImageButton
+        android:id="@+id/muti_game_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="180dp"
+        android:background="#00000000"
+        android:contentDescription="@string/muti_game_button"
+        android:src="@drawable/multiplayer" />
+
+    <ImageView
+        android:id="@+id/logo_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:contentDescription="@string/logo_image" />
+
+    <ImageButton
+        android:id="@+id/single_game_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="180dp"
+        android:background="#00000000"
+        android:contentDescription="@string/single_game_button"
+        android:src="@drawable/singleplayer" />
+
+</RelativeLayout>

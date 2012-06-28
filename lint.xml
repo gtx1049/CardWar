@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="HandlerLeak">
+        <ignore path="src\com\codeblood\activity\Teamscroll.java" />
+        <ignore path="src\com\codeblood\activity\Welcome.java" />
+        <ignore path="src\com\codeblood\customview\Stagedialog.java" />
+    </issue>
+    <issue id="NestedWeights">
+        <ignore path="res\layout\activity_singlepre.xml" />
+        <ignore path="res\layout\activity_teamscroll.xml" />
+    </issue>
+    <issue id="SuspiciousImport">
+        <ignore path="src\com\codeblood\global\DispatchUI.java" />
+    </issue>
+    <issue id="WorldReadableFiles">
+        <ignore path="src\com\codeblood\global\Datamanager.java" />
+    </issue>
+</lint>

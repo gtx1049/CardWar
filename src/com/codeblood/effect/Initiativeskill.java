@@ -1,6 +1,15 @@
 package com.codeblood.effect;
 
-public class Initiativeskill extends Skill
+import com.codeblood.actors.Solder;
+
+public class Initiativeskill implements Skill
 {
+
+	@Override
+	public void buffOne(Solder solder)
+	{
+		// TODO Auto-generated method stub
+		
+	}
 
 }

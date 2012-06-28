@@ -1,5 +1,38 @@
-<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="hello">Hello World, TheCardWarActivity!</string>
+
     <string name="app_name">TheCardWar</string>
+    <string name="hello_world">CardWar</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="single_game_button">单人游戏</string>
+    <string name="muti_game_button">多人游戏</string>
+    <string name="logo_image">LOGO</string>
+    <string name="title_activity_singlepre">Singlepre</string>
+    <string name="title_activity_selectleader">Selectleader</string>
+    <string name="title_activity_summarize">Summarize</string>
+    <string name="card_image">Cardimage</string>
+    <string name="card_name">未知</string>
+    <string name="card_record">Cardrecord</string>
+    <string name="solderone_photo">Solderone</string>
+    <string name="soldertwo_photo">Soldertwo</string>
+    <string name="view_singlesolder_photo">viewsinglesolderphoto</string>
+    <string name="view_singlesolder_name">viewsinglesoldername</string>
+    <string name="view_singlesolder_life">viewsinglesolderlife</string>
+    <string name="view_singlesolder_lifenumber">viewsinglesolderlifenumber</string>
+    <string name="view_singlesolder_ability">viewsinglesoderability</string>
+    <string name="view_singlesolder_shape">viewsinglesodershape</string>
+    <string name="background_select_leader">viewselectleader</string>
+    <string name="title_activity_status">Status</string>
+    <string name="status_face">face</string>
+    <string name="status_skill1">skill1</string>
+    <string name="status_skill2">skill2</string>
+    <string name="status_skill3">skill3</string>
+    <string name="status_skill4">skill4</string>
+    <string name="status_item">item</string>
+    <string name="status_team">team</string>
+    <string name="status_fight">fight</string>
+    <string name="title_activity_itemscroll">Itemscroll</string>
+    <string name="title_activity_teamscroll">Teamscroll</string>
+    <string name="title_activity_fightpre">Fightpre</string>
+	<string name="title_activity_mutistatus">Mutistatus</string>
 </resources>

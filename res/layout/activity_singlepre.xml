@@ -1,0 +1,42 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="@drawable/backgroung1">
+
+    <ListView
+        android:id="@+id/namelist"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" 
+        android:layout_weight="1"
+        android:cacheColorHint="#00000000">
+    </ListView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="1" >
+
+        <com.codeblood.customview.Singlesolder
+            android:id="@+id/view_solderone"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+		<ImageButton 
+		    android:id="@+id/view_single_fight"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:contentDescription="@string/status_fight"
+		    android:background="#00000000"
+		    android:src="@drawable/singlefight"
+		    android:layout_gravity="center"/>
+		<com.codeblood.customview.Singlesolder
+		    android:id="@+id/view_soldertwo"
+		    android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1"/>
+
+    </LinearLayout>
+
+</LinearLayout>

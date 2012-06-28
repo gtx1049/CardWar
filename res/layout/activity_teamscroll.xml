@@ -1,0 +1,109 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background2"
+    android:baselineAligned="false" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <ListView
+            android:id="@+id/team_namelist"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="4" >
+        </ListView>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" >
+
+            <ImageButton
+                android:id="@+id/scroll_team1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="10dp"
+                android:background="#00000000"
+                android:contentDescription="@string/status_team"
+                android:src="@drawable/btn_selected_team1" />
+
+            <ImageButton
+                android:id="@+id/scroll_team2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/scroll_team1"
+                android:layout_toRightOf="@+id/scroll_team1"
+                android:background="#00000000"
+                android:contentDescription="@string/status_team"
+                android:src="@drawable/btn_scroll_team2" />
+
+            <ImageButton
+                android:id="@+id/scroll_team3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/scroll_team1"
+                android:layout_toRightOf="@+id/scroll_team2"
+                android:background="#00000000"
+                android:contentDescription="@string/status_team"
+                android:src="@drawable/btn_scroll_team3" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="1" >
+
+        <com.codeblood.customview.Singlesolder
+            android:id="@+id/team_solderwatch"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" 
+            android:layout_weight="1"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1" >
+
+            <ImageButton
+                android:id="@+id/team_member_equip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/team_solderwatch"
+                android:layout_marginLeft="10dp"
+                android:background="#00000000"
+                android:contentDescription="@string/status_team"
+                android:src="@drawable/btn_equip" />
+
+            <ImageButton
+                android:id="@+id/team_member_change"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/team_member_equip"
+                android:layout_marginRight="10dp"
+                android:background="#00000000"
+                android:contentDescription="@string/status_team"
+                android:src="@drawable/btn_change" />
+
+            <TextView
+                android:id="@+id/scroll_item"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/team_member_equip"
+                android:layout_toRightOf="@+id/team_member_equip"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#FFFFFFFF" />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>
